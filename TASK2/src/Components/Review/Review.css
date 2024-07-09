@@ -1,0 +1,89 @@
+#review{
+    background: white;
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    padding-bottom: 5rem;
+}
+
+.review .heading{
+    font-size: 4rem;
+}
+
+.review .sub-heading{
+    font-size: 3rem;
+}
+
+.review .slide{
+    padding: 2rem;
+    padding-top: 3rem;
+    box-shadow: 1rem solid rgba(0,0,0,.2);
+    border-radius: .5rem;
+    position: relative;
+    border: 1px solid;
+    margin:0 3rem 8rem 8rem;
+}
+
+.review .slide .fa-quote-right{
+    position: absolute;
+    top: 2rem;right: 2rem;
+    font-size: 6rem;
+    color: #ccc;
+}
+
+.review .slide .user{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.review .slide .user img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .slide .user h3{
+    color: var(--black);
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+.review .slide .user i{
+    color: var(--green);
+    font-size: 1.3rem;
+}
+
+.review .slide p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+}
+
+@media(max-width:850px){
+    .review .slide .fa-quote-right{
+        font-size: 5rem;
+        top: 1rem;
+        right: 1rem;
+    }
+}
+
+@media(max-width:420px){
+    .review .slide .fa-quote-right{
+        font-size: 4rem;
+        top: 1rem;
+        right: 1rem;
+    }
+}
+
+@media(max-width:360px){
+    .review .heading{
+        font-size: 3rem;
+    }
+    
+    .review .sub-heading{
+        font-size: 2rem;
+    }
+}

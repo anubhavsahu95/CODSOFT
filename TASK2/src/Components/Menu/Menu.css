@@ -1,0 +1,118 @@
+#menu{
+    background: white;
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    padding-bottom: 5rem;
+}
+
+.menu .heading{
+    font-size: 4rem;
+}
+
+.menu .sub-heading{
+    font-size: 3rem;
+}
+
+
+.menu .box-container .box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+
+.menu .box-container .box .content{
+    padding: 1.5rem 0;
+    max-width: 49%;
+}
+
+#menu .box-container .box .content h3{
+    font-size: 5rem;
+}
+
+.menu .box-container .box .image{
+    width: 40%;
+}
+
+.menu .box-container .box .image img{
+    width: 100%;
+}
+
+#menu .box-container .box .content p{
+    text-align: left;
+    font-size: 2rem;
+    padding: 2rem 5rem;
+}
+
+.menu .box-container .box .content span{
+    margin-left: 1rem;
+}
+
+.menu .box-container .box .content a{
+    right: 1rem;
+}
+
+#menu .box h3{
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+
+#menu .box span{
+    color: var(--green);
+    font-weight: bolder;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+
+@media(max-width:834px){
+    .menu .box-container .box .content p{
+        text-align: left;
+        align-items: center;
+    }
+}
+
+@media(max-width:700px){
+    #menu .box-container .box .content h3{
+        font-size: 4rem;
+    }
+    #menu .box-container .box .content p{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width:600px){
+    .menu .heading{
+        font-size: 4rem;
+    }
+    .menu .sub-heading{
+        font-size: 3rem;
+    }
+    #menu .box-container .box .content h3{
+        font-size: 3.5rem;
+    }
+    #menu .box-container .box .content p{
+        font-size: 1.3rem;
+    }
+    #menu .box span{
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+}
+
+@media(max-width:360px){
+    .menu .heading{
+        font-size: 3rem;
+    }
+    #menu .sub-heading{
+        font-size: 2.5rem;
+    }
+    #menu .box-container .box .content h3{
+        font-size: 3rem;
+        margin-left: 3rem;
+    }
+}

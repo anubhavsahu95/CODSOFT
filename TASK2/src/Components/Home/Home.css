@@ -1,0 +1,93 @@
+#home .slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background: #fff;
+    padding: 11rem 8%;
+    padding-bottom: 8rem;
+    min-height: 82.5rem;
+}
+
+#home .content{
+    flex: 1 1 45rem;
+}
+
+#home .image{
+    flex: 1 1 45rem;
+}
+
+#home .image img{
+    width: 100%;
+}
+
+#home .content span{
+    color: var(--green);
+    font-size: 3.5rem;
+}
+
+#home .content h3{
+    color: var(--black);
+    font-size: 7.5rem;
+}
+
+#home .content p{
+    color: var(--light-color);
+    font-size: 2.2rem;
+    padding: .5rem 0;
+    line-height: 1.5;
+}
+
+#home .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+#home .btn:hover{
+    letter-spacing: .1rem;
+    background: var(--green);
+}
+
+#home .swiper-pagination-bullet-active{
+    background: var(--green);
+}
+
+@media(max-width:1100px){
+    #home .content span{
+        font-size: 3rem;
+    }
+    #home .content h3{
+        font-size: 6.5rem;
+    }
+    #home .slide{
+        height: 100rem;
+    }
+}
+
+@media(max-width:530px){
+    #home .slide{
+        padding-bottom: 4rem;
+    }
+}
+
+@media(max-width:435px){
+    #home .content span{
+        font-size: 2.5rem;
+    }
+    #home .content h3{
+        font-size: 5rem;
+        margin: 2rem 0;
+    }
+    #home .image img{
+        width: 100%;
+    }
+    #home .btn{
+        margin: 1rem 0;
+    }
+}
